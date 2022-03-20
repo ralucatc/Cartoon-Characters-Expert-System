@@ -1,0 +1,22 @@
+{
+    "data": [
+      {
+        "question": "What is your favourite color ?",
+        "choices": ["Green", "Blue", "Purple", "Red", "Orange", "Yellow", "Pink", "White", "Black"]
+
+      },
+      {
+        "question": "What is your favourite food ?",
+        "choices": ["Chilli con carne", "Meat", "Nachos", "Ice cream", "Pudding", "Cereals", "Bananas", "Spinach"]
+
+      },
+      {
+        "question": "Choose an activity you like ?",
+        "choices": ["Reading books", "Inventing new things", "Drawing", "Ballet", "Tennis", " Childhood games", "Video games", "Cooking", "Watching Netflix"]
+      },
+      {
+        "question": "Choose your favourite subject",
+        "choices": ["Sport", "I hate all subjects", "I didn't go to school", "Languages", "Arts", "Literature", "I love all subjects", "Science", "Math"]
+      }
+    ]
+  }
