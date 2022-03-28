@@ -1,18 +1,16 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-
 import background from "../src/assets/background.jpg";
 import kb from "./knowledge-base/characters";
 import FirstPage from "./components/FirstPage";
 import FinalPage from "./components/FinalPage";
-
 import quizData from "./knowledge-base/data.json";
 
 let interval;
 
 const App = () => {
 
-  const forwardChainPers = assertions => {
+  const forwardChainingFunction = assertions => {
 		let results = [];
 
 		kb.forEach(k => {
@@ -39,8 +37,7 @@ const App = () => {
   const [time, setTime] = useState(0);
   const [conclusion, setConclusion] = useState("");
   const [premises, setPremises] = useState([{ attribute: 'color', value: "cold_colors" }]);
-
-  const isPremise = name => premises.findIndex(p => p.attribute === name) !== -1;
+  const [questionNumber, setQuestionNumber] = useState(1);
 
   useEffect(() => {
     if (step === 3) {
@@ -57,14 +54,17 @@ const App = () => {
   };
 
   const resetClickHandler = () => {
-    setStep(2);
-    setTime(0);
-    interval = setInterval(() => {
-      setTime((prevTime) => prevTime + 1);
-    }, 1000);
+    // setStep(1);
+    // updatePremises("", "");
+    // setTime(0);
+    // interval = setInterval(() => {
+    //   setTime((prevTime) => prevTime + 1);
+    // }, 1000);
+    window.location.reload(false);
   };
 
   const updatePremises = (attribute, value) => {
+
 		let exists = false;
 
 		let newPremises = premises;
@@ -80,14 +80,16 @@ const App = () => {
 			newPremises = [...premises, { attribute, value }]
 		}
 
-		console.log(forwardChainPers(newPremises));
+    setQuestionNumber(questionNumber + 1);
+		console.log(forwardChainingFunction(newPremises));
 		setPremises(newPremises);
+
 	}
 
   const handleCompleted = () => {
-		console.log("COMPLETED");
-		console.log(premises)
-		setConclusion(forwardChainPers(premises));
+		console.log("Quiz completed!");
+		console.log(premises);
+		setConclusion(forwardChainingFunction(premises));
     setStep(3);
 	}
 
@@ -103,9 +105,12 @@ const App = () => {
         <div className="App-container">
           {step === 1 && <FirstPage onQuizStart={quizStartHandler} />}
           {step === 2 && (
-            <div>
-            <p variant="h5" align='left'>What's your favorite color?</p>
-            <div >
+            <div className="card">
+               { questionNumber === 1 ?
+              <div className="card-content">
+              <div className="content">
+              <h2 className="mb-5">What's your favorite color?</h2>
+              <div className="control"  >
               <div className="inputGroup">
                 <input onClick={() => updatePremises("color", "cold_colors")} id="radio11" name="radio1" type="radio" />
                 <label htmlFor="radio11" className="buttonText">green</label>
@@ -142,11 +147,15 @@ const App = () => {
                 <input onClick={() => updatePremises("color", "non_colors")} id="radio13" name="radio1" type="radio" />
                 <label htmlFor="radio13" className="buttonText">black</label>
               </div>
+              </div>
+              </div>
             </div>
-            {isPremise("color") ?
-              <div>
-                <p variant="h5" align='left' >What's your favorite food?</p>
-                <div >
+            : null}
+            {questionNumber === 2 ?
+              <div className="card-content">
+                <div className="content">
+              <h2 className="mb-5">What's your favorite food?</h2>
+                <div className="control" >
                   <div className="inputGroup">
                     <input onClick={() => updatePremises("food", "junk_food")} id="radio21" name="radio2" type="radio" />
                     <label htmlFor="radio21" className="buttonText">chili con carne</label>
@@ -180,12 +189,14 @@ const App = () => {
                     <label htmlFor="radio23" className="buttonText">spinach</label>
                   </div>
                 </div>
+                </div>
               </div>
               : null}
-            {isPremise("food") ?
-              <div>
-                <p variant="h5" align='left'>Choose one activity that you enjoy the most:</p>
-                <div >
+            {questionNumber === 3 ?
+              <div className="card-content">
+              <div className="content">
+              <h2 className="mb-5">Choose one activity that you enjoy the most:</h2>
+                <div className="control" >
                 <div className="inputGroup">
                     <input onClick={() => updatePremises("activity", "education")} id="radio21" name="radio2" type="radio" />
                     <label htmlFor="radio21" className="buttonText">reading books</label>
@@ -223,12 +234,14 @@ const App = () => {
                     <label htmlFor="radio23" className="buttonText">watching Netflix</label>
                   </div>
                   </div>
+                  </div>
               </div>
               : null}
-            {isPremise("activity") ?
-              <div>
-                <p variant="h5" align='left' >Choose your favorite school subject:</p>
-                <div >
+            {questionNumber === 4 ?
+              <div className="card-content">
+                <div className="content">
+                <h2 className="mb-5">Choose your favorite school subject:</h2>
+                <div className="control" >
                 <div className="inputGroup">
                     <input onClick={() => updatePremises("subject", "dumb")} id="radio21" name="radio2" type="radio" />
                     <label htmlFor="radio21" className="buttonText">sport</label>
@@ -266,9 +279,10 @@ const App = () => {
                     <label htmlFor="radio23" className="buttonText">math</label>
                   </div>
                 </div>
+                </div>
               </div>
               : null}
-            {isPremise("subject") ? handleCompleted() : null}
+            {questionNumber === 5 ? handleCompleted() : null}
           
           </div>
           )}
