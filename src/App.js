@@ -81,6 +81,7 @@ const App = () => {
 		})
 
 		if (!exists) {
+
 			newPremises = [...premises, { attribute, value }]
 		}
 
@@ -93,7 +94,7 @@ const App = () => {
   const handleCompleted = () => {
 		console.log("Quiz completed!");
 		console.log(premises);
-		setConclusion(forwardChainingFunction(premises));
+		setConclusion(forwardChainingFunction(premises)[0]);
     setStep(3);
 	}
 
