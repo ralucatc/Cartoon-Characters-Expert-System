@@ -25,6 +25,9 @@ const App = () => {
 
 			if (isCorrect) {
 				results.push(k.conclusion.value);
+        if( questionNumber === 5) {
+          setImage(k.conclusion.img);
+        }
 			}
 		});
 
@@ -36,6 +39,7 @@ const App = () => {
   const [step, setStep] = useState(1);
   const [time, setTime] = useState(0);
   const [conclusion, setConclusion] = useState("");
+  const [image, setImage] = useState("");
   const [premises, setPremises] = useState([{ attribute: 'color', value: "cold_colors" }]);
   const [questionNumber, setQuestionNumber] = useState(1);
 
@@ -255,15 +259,15 @@ const App = () => {
                     <label htmlFor="radio23" className="buttonText">I didn't go to school</label>
                   </div>
                   <div className="inputGroup">
-                    <input onClick={() => updatePremises("subject", "not_smart_not_dumb")} id="radio21" name="radio2" type="radio" />
+                    <input onClick={() => updatePremises("subject", "not_dumb_not_smart")} id="radio21" name="radio2" type="radio" />
                     <label htmlFor="radio21" className="buttonText">languages</label>
                   </div>
                   <div className="inputGroup">
-                    <input onClick={() => updatePremises("subject", "not_smart_not_dumb")} id="radio22" name="radio2" type="radio" />
+                    <input onClick={() => updatePremises("subject", "not_dumb_not_smart")} id="radio22" name="radio2" type="radio" />
                     <label htmlFor="radio22" className="buttonText">arts</label>
                   </div>
                   <div className="inputGroup">
-                    <input onClick={() => updatePremises("subject", "not_smart_not_dumb")} id="radio23" name="radio2" type="radio" />
+                    <input onClick={() => updatePremises("subject", "not_dumb_not_smart")} id="radio23" name="radio2" type="radio" />
                     <label htmlFor="radio23" className="buttonText">literature</label>
                   </div>
                   <div className="inputGroup">
@@ -292,6 +296,7 @@ const App = () => {
               onReset={resetClickHandler}
               time={time}
               conclusion={conclusion}
+              image={image}
             />
           )}
         </div>
