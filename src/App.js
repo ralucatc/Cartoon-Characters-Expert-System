@@ -77,6 +77,7 @@ const App = () => {
 		})
 
 		if (!exists) {
+
 			newPremises = [...premises, { attribute, value }]
 		}
 
@@ -89,7 +90,7 @@ const App = () => {
   const handleCompleted = () => {
 		console.log("Quiz completed!");
 		console.log(premises);
-		setConclusion(forwardChainingFunction(premises));
+		setConclusion(forwardChainingFunction(premises)[0]);
     setStep(3);
 	}
 
@@ -255,15 +256,15 @@ const App = () => {
                     <label htmlFor="radio23" className="buttonText">I didn't go to school</label>
                   </div>
                   <div className="inputGroup">
-                    <input onClick={() => updatePremises("subject", "not_smart_not_dumb")} id="radio21" name="radio2" type="radio" />
+                    <input onClick={() => updatePremises("subject", "not_dumb_not_smart")} id="radio21" name="radio2" type="radio" />
                     <label htmlFor="radio21" className="buttonText">languages</label>
                   </div>
                   <div className="inputGroup">
-                    <input onClick={() => updatePremises("subject", "not_smart_not_dumb")} id="radio22" name="radio2" type="radio" />
+                    <input onClick={() => updatePremises("subject", "not_dumb_not_smart")} id="radio22" name="radio2" type="radio" />
                     <label htmlFor="radio22" className="buttonText">arts</label>
                   </div>
                   <div className="inputGroup">
-                    <input onClick={() => updatePremises("subject", "not_smart_not_dumb")} id="radio23" name="radio2" type="radio" />
+                    <input onClick={() => updatePremises("subject", "not_dumb_not_smart")} id="radio23" name="radio2" type="radio" />
                     <label htmlFor="radio23" className="buttonText">literature</label>
                   </div>
                   <div className="inputGroup">
