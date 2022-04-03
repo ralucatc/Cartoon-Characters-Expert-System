@@ -6,7 +6,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Olive Oyl', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Olive Oyl', img: 'oliveoyl.png' }
     }, // 1
     {
         premises: [
@@ -15,7 +15,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Blossom', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Blossom', img: 'blossom.jpg' }
     }, // 2
     {
         premises: [
@@ -24,7 +24,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Dexter', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Dexter', img: 'dexter.png' }
     }, // 3
     {
         premises: [
@@ -33,7 +33,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Courage', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Courage', img: 'courage.png' }
     }, // 4
     {
         premises: [
@@ -42,7 +42,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Buttercup', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Buttercup', img: 'buttercup.png' }
     }, // 5
     {
         premises: [
@@ -51,7 +51,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Edd', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Edd', img: 'edd.jpg' }
     }, // 6
     {
         premises: [
@@ -60,7 +60,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Johnny Bravo', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Johnny Bravo', img: 'johnnybravo.png' }
     }, // 7
     {
         premises: [
@@ -69,7 +69,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Blossom', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Blossom', img: 'blossom.jpg' }
     }, // 8
     {
         premises: [
@@ -78,7 +78,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Dexter', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Dexter', img: 'dexter.png' }
     }, // 9
     {
         premises: [
@@ -87,7 +87,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Olive Oyl', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Olive Oyl', img: 'oliveoyl.png' }
     }, // 10
     {
         premises: [
@@ -96,7 +96,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Muriel Bagge', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Muriel Bagge', img: 'muriel.png' }
     }, // 11
     {
         premises: [
@@ -105,7 +105,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Edd', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Edd', img: 'edd.jpg' }
     }, // 12
     {
         premises: [
@@ -114,7 +114,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Johnny Bravo', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Johnny Bravo', img: 'johnnybravo.png' }
     }, // 13
     {
         premises: [
@@ -123,7 +123,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Ed', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Ed', img: 'ed.jpg' }
     }, // 14
     {
         premises: [
@@ -132,7 +132,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Popeye', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Popeye', img: 'popeye.jpg' }
     }, // 15
     {
         premises: [
@@ -141,7 +141,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Dee Dee', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Dee Dee', img: 'deedee.png' }
     }, // 16
     {
         premises: [
@@ -150,7 +150,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Bubbles', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Bubbles', img: 'bubbles.jpg' }
     }, // 17
     {
         premises: [
@@ -159,7 +159,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Dexter', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Dexter', img: 'dexter.png' }
     }, // 18
     {
         premises: [
@@ -168,7 +168,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Cow', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Cow', img: 'cow.png' }
     }, // 19
     {
         premises: [
@@ -177,7 +177,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Ed', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Ed', img: 'ed.jpg' }
     }, // 20
     {
         premises: [
@@ -186,7 +186,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Mojo Jojo', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Mojo Jojo', img: 'mojojojo.png' }
     }, // 21
     {
         premises: [
@@ -195,7 +195,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'I.R. Baboon', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'I.R. Baboon', img: 'baboon.png' }
     }, // 22
     {
         premises: [
@@ -204,7 +204,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Ed', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Ed', img: 'ed.jpg' }
     }, // 23
     {
         premises: [
@@ -213,7 +213,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Popeye', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Popeye', img: 'popeye.jpg' }
     }, // 24
     {
         premises: [
@@ -222,7 +222,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'I.R. Baboon', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'I.R. Baboon', img: 'baboon.png' }
     }, // 25
     {
         premises: [
@@ -231,7 +231,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Eustace Bagge', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Eustace Bagge', img: 'eustace.png' }
     }, // 26
     {
         premises: [
@@ -240,7 +240,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Mojo Jojo', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Mojo Jojo', img: 'mojojojo.png' }
     }, // 27
     {
         premises: [
@@ -249,7 +249,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Dee Dee', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Dee Dee', img: 'deedee.png' }
     }, // 28
     {
         premises: [
@@ -258,7 +258,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Bubbles', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Bubbles', img: 'bubbles.jpg' }
     }, // 29
     {
         premises: [
@@ -267,7 +267,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Edd', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Edd', img: 'edd.jpg' }
     }, // 30
     {
         premises: [
@@ -276,7 +276,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Eddy', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Eddy', img: 'eddy.png' }
     }, // 31
     {
         premises: [
@@ -285,7 +285,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Bunny Bravo', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Bunny Bravo', img: 'bunnybravo.png' }
     }, // 32
     {
         premises: [
@@ -294,7 +294,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Edd', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Edd', img: 'edd.jpg' }
     }, // 33
     {
         premises: [
@@ -303,7 +303,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Eddy', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Eddy', img: 'eddy.png' }
     }, // 34
     {
         premises: [
@@ -312,7 +312,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Bunny Bravo', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Bunny Bravo', img: 'bunnybravo.png' }
     }, // 35
     {
         premises: [
@@ -321,7 +321,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Jerry', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Jerry', img: 'jerry.png' }
     }, // 36
     {
         premises: [
@@ -330,7 +330,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Olive Oyl', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Olive Oyl', img: 'oliveoyl.png' }
     }, // 37
     {
         premises: [
@@ -339,7 +339,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Blossom', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Blossom', img: 'blossom.jpg' }
     }, // 38
     {
         premises: [
@@ -348,7 +348,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'I.M. Weasel', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'I.M. Weasel', img: 'weasel.png' }
     }, // 39
     {
         premises: [
@@ -357,7 +357,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Dee Dee', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Dee Dee', img: 'deedee.png' }
     }, // 40
     {
         premises: [
@@ -366,7 +366,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Muriel Bagge', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Muriel Bagge', img: 'muriel.png' }
     }, // 41
     {
         premises: [
@@ -375,7 +375,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'I.M. Weasel', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'I.M. Weasel', img: 'weasel.png' }
     }, // 42
     {
         premises: [
@@ -384,7 +384,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Courage', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Courage', img: 'courage.png' }
     }, // 43
     {
         premises: [
@@ -393,7 +393,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Bubbles', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Bubbles', img: 'bubbles.jpg' }
     }, // 44
     {
         premises: [
@@ -402,7 +402,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Red Guy', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Red Guy', img: 'redguy.jpg' }
     }, // 45
     {
         premises: [
@@ -411,7 +411,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Johnny Bravo', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Johnny Bravo', img: 'johnnybravo.png' }
     }, // 46
     {
         premises: [
@@ -420,7 +420,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Muriel Bagge', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Muriel Bagge', img: 'muriel.png' }
     }, // 47
     {
         premises: [
@@ -429,7 +429,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Red Guy', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Red Guy', img: 'redguy.jpg' }
     }, // 48
     {
         premises: [
@@ -438,7 +438,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Cow', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Cow', img: 'cow.png' }
     }, // 49
     {
         premises: [
@@ -447,7 +447,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Tom', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Tom', img: 'tom.png' }
     }, // 50
     {
         premises: [
@@ -456,7 +456,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Chicken', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Chicken', img: 'chicken.png' }
     }, // 51
     {
         premises: [
@@ -465,7 +465,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Olive Oyl', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Olive Oyl', img: 'oliveoyl.png' }
     }, // 52
     {
         premises: [
@@ -474,7 +474,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Muriel Bagge', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Muriel Bagge', img: 'muriel.png' }
     }, // 53
     {
         premises: [
@@ -483,7 +483,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Popeye', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Popeye', img: 'popeye.jpg' }
     }, // 54
     {
         premises: [
@@ -492,7 +492,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Johnny Bravo', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Johnny Bravo', img: 'johnnybravo.png' }
     }, // 55
     {
         premises: [
@@ -501,7 +501,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Buttercup', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Buttercup', img: 'buttercup.png' }
     }, // 56
     {
         premises: [
@@ -510,7 +510,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Mojo Jojo', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Mojo Jojo', img: 'mojojojo.png' }
     }, // 57
     {
         premises: [
@@ -519,7 +519,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Eddy', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Eddy', img: 'eddy.png' }
     }, // 58
     {
         premises: [
@@ -528,7 +528,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Spike', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Spike', img: 'spike.png' }
     }, // 59
     {
         premises: [
@@ -537,7 +537,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Chicken', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Chicken', img: 'chicken.png' }
     }, // 60
     {
         premises: [
@@ -546,7 +546,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Courage', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Courage', img: 'courage.png' }
     }, // 61
     {
         premises: [
@@ -555,7 +555,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Tom', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Tom', img: 'tom.png' }
     }, // 62
     {
         premises: [
@@ -564,7 +564,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Jerry', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Jerry', img: 'jerry.png' }
     }, // 63
     {
         premises: [
@@ -573,7 +573,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Eddy', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Eddy', img: 'eddy.jpg' }
     }, // 64
     {
         premises: [
@@ -582,7 +582,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Buttercup', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Buttercup', img: 'buttercup.png' }
     }, // 65
     {
         premises: [
@@ -591,7 +591,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Jerry', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Jerry', img: 'jerry.png' }
     }, // 66
     {
         premises: [
@@ -600,7 +600,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Courage', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Courage', img: 'courage.png' }
     }, // 67
     {
         premises: [
@@ -609,7 +609,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Spike', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Spike', img: 'spike.png' }
     }, // 68
     {
         premises: [
@@ -618,7 +618,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Red Guy', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Red Guy', img: 'redguy.jpg' }
     }, // 69
     {
         premises: [
@@ -627,7 +627,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Cow', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Cow', img: 'cow.png' }
     }, // 70
     {
         premises: [
@@ -636,7 +636,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Tom', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Tom', img: 'tom.png' }
     }, // 71
     {
         premises: [
@@ -645,7 +645,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Dexter', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Dexter', img: 'dexter.png' }
     }, // 72
     {
         premises: [
@@ -654,7 +654,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'I.R. Baboon', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'I.R. Baboon', img: 'baboon.png' }
     }, // 73
     {
         premises: [
@@ -663,7 +663,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Eustace Bagge', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Eustace Bagge', img: 'eustace.png' }
     }, // 74
     {
         premises: [
@@ -672,7 +672,7 @@ const KB = [
             { attribute: 'activity', value: 'education' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'I.M. Weasel', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'I.M. Weasel', img: 'weasel.png' }
     }, // 75
     {
         premises: [
@@ -681,7 +681,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'Johnny Bravo', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Johnny Bravo', img: 'johnnybravo.png' }
     }, // 76
     {
         premises: [
@@ -690,7 +690,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Eustace Bagge', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Eustace Bagge', img: 'eustace.png' }
     }, // 77
     {
         premises: [
@@ -699,7 +699,7 @@ const KB = [
             { attribute: 'activity', value: 'outdoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Chicken', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Chicken', img: 'chicken.png' }
     }, // 78
     {
         premises: [
@@ -708,7 +708,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'dumb' }
         ],
-        conclusion: { attribute: 'result', value: 'I.R. Baboon', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'I.R. Baboon', img: 'baboon.png' }
     }, // 79
     {
         premises: [
@@ -717,7 +717,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'not_dumb_not_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Eustace Bagge', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Eustace Bagge', img: 'eustace.png' }
     }, // 80
     {
         premises: [
@@ -726,7 +726,7 @@ const KB = [
             { attribute: 'activity', value: 'indoor_activity' },
             { attribute: 'subject', value: 'really_smart' }
         ],
-        conclusion: { attribute: 'result', value: 'Jerry', img: 'dexter.jpg' }
+        conclusion: { attribute: 'result', value: 'Jerry', img: 'jerry.png' }
     }, // 81
 
 ];

@@ -6,27 +6,23 @@ body,
 
 .App {
   display: flex;
-  /* align-items: center; */
   flex-direction: column;
   min-height: 100%;
-
 }
 
 .App-background {
-  height: 1000px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  height: 1000px; 
+  background-position: center; 
+
+  background-size: cover;  
   opacity: 0.9;
   position: absolute;
   width: 100%;
+  overflow-y: scroll;
 }
 
 .App-header {
-  background-color: white;
-  /* min-height: 100vh; */
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   font-size: 48px;
   font-weight: bold;
@@ -38,21 +34,37 @@ body,
   opacity: 0.9;
 }
 
+.card-content h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: bold;
+  font-family:fantasy;
+  color: #795f5f;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
 .App .card {
-  /* height: 700px; */
-  width:600px;
+  margin-top: 300px;
+  width:1000px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  letter-spacing: 1px;
+  color: #795f5f;
   box-shadow: 0 10px 10px 0 #795f5f;
-
 }
 
 .App-container {
+  padding-top: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 label.radio {
@@ -70,3 +82,25 @@ label.radio+.radio {
 label.radio input {
   margin-right: 40px;
 }
+
+label.buttonText {
+  width: 400px;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.App .inputGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.inputGroup input[type=radio] {
+  vertical-align: baseline;
+  width: 30px;
+  height: 25px;
+}
+
